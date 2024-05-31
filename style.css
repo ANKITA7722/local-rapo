@@ -1,0 +1,11 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+    color: aliceblue;
+}
+.navbar ul{
+    display: flex;
+    gap:40px;
+}
