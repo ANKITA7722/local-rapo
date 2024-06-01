@@ -9,6 +9,8 @@ html{
     background-color: rgb(253, 11, 11);
     align-items: center;
     color: aliceblue;
+    position: sticky;
+    top: 0%;
 }
 .navbar ul{
     display: flex;
