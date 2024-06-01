@@ -1,11 +1,27 @@
+
+
+html{
+    scroll-behavior: smooth;
+}
 .navbar{
     display: flex;
     justify-content: space-around;
-    background-color: black;
+    background-color: rgb(253, 11, 11);
     align-items: center;
     color: aliceblue;
 }
 .navbar ul{
     display: flex;
     gap:40px;
+}
+
+.head{
+    
+    background-color:brown ;
+}
+p{
+    word-spacing: 20px;
+   letter-spacing: 30px;
+  line-height: 50px;
+    
 }
