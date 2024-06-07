@@ -12,3 +12,23 @@
     text-decoration: none;
     color: black;
 }
+.container{height: 100vh;
+    background-color: rgb(242, 149, 10);
+    display: grid;
+grid-template-columns: repeat(3,auto);
+grid-template-rows:100px 200px ;
+}
+.CH{background-color: blueviolet;
+    border: 2px solid;
+}
+.ch1{grid-column-start: 1;
+    grid-column-end: 4;
+}
+.ch2{grid-row-start: 2;
+grid-row-end: 4;}
+.ch5{grid-row-start: 2;
+grid-row-end: 4;
+grid-row-start: 3;
+grid-row-end: 4;}
+.ch6{grid-row-start: 1;
+grid-row-end: 4;}

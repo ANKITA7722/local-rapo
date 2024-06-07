@@ -1,0 +1,16 @@
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blue;
+    flex-wrap: wrap-reverse;
+}
+.ch{
+    height: 200px;
+    width: 200px;
+
+    border: 2px solid;
+}
+.ch1{ background-color: aqua;}
+.ch2{ background-color: blueviolet;}
+.ch3{background-color: black;}
+.ch4{background-color: bisque;}
